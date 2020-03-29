@@ -1,7 +1,6 @@
 /*
  * 知识点：  学习 pthread 知识
  * 编译命令：gcc pthread.cpp -o pthread.o -lpthread
- *
  */
 
 #include <pthread.h>
