@@ -4,15 +4,14 @@
  * 
  */
 
-#ifndef __THREADSAFE_QUEUE_H_
 #include <iostream>
 #include <thread>
 #include "threadsafe_queue.h"
 
 using namespace std;
 
-typedef ThreadSafeQueue<int> queue;
-queue q;
+typedef ThreadSafeQueue<int> Queue;
+Queue q;
 
 void generator() {
     for(int i = 0; i < 100; ++i) {
